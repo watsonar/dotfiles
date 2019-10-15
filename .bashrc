@@ -1,17 +1,17 @@
 # .bashrc
 
-# source the anvio port
+# source the anvio port:
 
 source /project2/meren/VIRTUAL-ENVS/shared/00_load_all.sh
 
-# User specific aliases and functions
+# User specific aliases and functions:
 
 alias anvi-activate-master="conda activate /project2/meren/VIRTUAL-ENVS/anvio-master"
 alias anvi-activate-5.5="conda activate /project2/meren/VIRTUAL-ENVS/anvio-5.5"
 
 alias q="squeue --partition=meren -o '%.18i %.9P %.8j %.8u %.8T %.10M %.9l %.6D %R %.5C %.13m %.15N'"
 
-# Andrea's custom thingy that let's me do `cd meren` from anywhere to get to `~/project2/meren`
+# thingy that let's me do `cd meren` from anywhere to get to `~/project2/meren`:
 
 export CDPATH=.:~:/project2
 
