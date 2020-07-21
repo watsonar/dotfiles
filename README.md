@@ -1,1 +1,1 @@
-# octo-lamp
+# dotfiles
